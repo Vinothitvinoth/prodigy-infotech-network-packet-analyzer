@@ -1,0 +1,53 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+aenum = "*"
+chardet = "*"
+dictdumper = "~=0.8.4"
+emoji = "*"
+tbtrim = "~=0.3.1"
+
+[dev-packages]
+pypcapkit = {editable = true,path = "."}
+pyshark = "*"
+dpkt = "*"
+scapy = "*"
+beautifulsoup4 = {extras = ["html5lib"],version = "*"}
+requests = {extras = ["socks"],version = "*"}
+autopep8 = "*"
+bandit = "*"
+mypy = "*"
+pylint = "*"
+ipython = "*"
+coverage = "*"
+codecov = "*"
+sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-autodoc-typehints = "*"
+furo = "*"
+sphinxext-opengraph = "*"
+sphinx-copybutton = "*"
+sphinxcontrib-mermaid = "*"
+rstcheck = {extras = ["sphinx","toml"],version = "*"}
+esbonio = "*"
+vermin = "*"
+types-chardet = "*"
+types-docutils = "*"
+types-emoji = "*"
+types-requests = "*"
+types-urllib3 = "*"
+types-setuptools = "*"
+pybind11 = {extras = ["global"],version = "*"}
+snakeviz = "*"
+tuna = "*"
+build = "*"
+twine = "*"
+
+[requires]
+python_version = "3"
+
+[pipenv]
+#allow_prereleases = true
